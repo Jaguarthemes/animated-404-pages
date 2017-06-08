@@ -1,0 +1,71 @@
+====================================================================================
+Author       : jaguar themes
+Template Name: Creative Animated 404 Pages
+Version      : 1.0
+Author URL   : http://www.jaguarthemes.com
+Created by   : Jaguar Themes
+Description  : Creative animated 404 Pages. Pages with a clean & unique design, ideal for all Purpose.  Valid HTML and CSS. All common HTTP errors, like 401, 403, 404, 500 and 503 or for many other purposes. 
+License      : This project is licensed under the terms of the MIT license
+====================================================================================
+
+Dark Version:
+~~~~~~~~~~~~~
+
+	Css Needed for dark version:
+		style.css
+	Images needed For Dark Version:
+		fish 
+		cloud1
+		cloud2
+		sky
+		bird
+
+Light Version:
+~~~~~~~~~~~~~
+
+	Css Needed for Light version:
+		style.css
+	Images needed For Light Version:
+		fish_2 
+		cloud1
+		cloud2
+		sky_2
+		bird
+=================================================================================================
+How to change background color and images:
+	-> Open Style.css file
+	-> Find #main 
+	-> background: #000 url(../images/sky.png) repeat-x 0 0;
+		
+		* Here i use sky image you can apply your own. and i also use #000 color if image is not found then this color is use for background.
+==================================================================================================
+How to change cloud image:
+	-> Open Style.css file
+	-> Find #cloud_1 #cloud_2
+	-> background: transparent url(../images/cloud1.png) no-repeat scroll 0 0;
+		
+		* Here i use two cloud cloud 1 and cloud 2 i have use two different images for that cloud1.png and cloud2.png.
+===================================================================================================
+How to change water(Ripple) color:
+	-> Open any index file
+	-> I have included inline javascript you can find this code in <script type="text/javascript"> and find below code in js file
+	-> c.fillStyle="rgba(83,83,83,.8)";		
+
+		* You have to apply your choosen RGB color for that.
+===================================================================================================
+How to change Description:
+	<div class="detail">
+		<h1>404 Page Not Found</h1>
+    		<h2>Something's wrong here...</h2>
+    		<p>The page you are looking for was moved, removed, renamed or
+might never existed.</p>
+		<!-- Buttons -->
+		<a href="#" class="button1"><span data-hover="Go Home">GO Home</span></a>
+    		<a href="#" class="button1"><span data-hover="Contact Us">Contact US</span></a>
+	</div>
+
+		* You can change it using above code.
+====================================================================================================
+
+Thank you. If you have any further question and need support then please mail us in below mail id.
+Mail Id: support@jaguarthemes.com
